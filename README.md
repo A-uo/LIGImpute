@@ -7,4 +7,4 @@ conda activate LTGAN_env
 <p>Runing：</p>
 <pre><code class='language-python' lang='python'>python LTGAN.py --impute --n_epochs 500 --batch_size 64 --file_d ./Data/GSM5768747_NB5_UMI_COUNTS_RAW.csv --file_c louvain_labels_GSM5768752.csv --job_name GSM5768752 --outdir ./outputLTGAN
 </code></pre>
-<p>Among them, the sample data files stored in the Data folder, the &quot;xxx_labels.csv&quot; file represents the clustering label file of the original data.</p>
+<p>Among them, the sample data files stored in the Data folder, the &quot;louvain_labels_xxx.csv&quot; file represents the clustering label file of the original data.</p>
